@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5f3462ac.css",
+    "main.js": "/static/js/main.0e7a88f9.js",
+    "static/media/game.png": "/static/media/game.c88ca76d4ac55a4ab4c8.png",
+    "static/media/game2.png": "/static/media/game2.1b075a249c121b3a2149.png",
+    "static/media/logo5.png": "/static/media/logo5.63a8eefd3fb3effba314.png",
+    "static/media/logo3.png": "/static/media/logo3.de4ef7a329eedc77b135.png",
+    "static/media/newfeaturepic.png": "/static/media/newfeaturepic.40000932be405ead214f.png",
+    "static/media/Kenney_Future_Narrow.ttf": "/static/media/Kenney_Future_Narrow.2aa39d70951453c74a55.ttf",
+    "static/media/colourpyramid.png": "/static/media/colourpyramid.16617ca9fa4e413bc12e.png",
+    "static/media/snake.png": "/static/media/snake.283210587a2519d89ef0.png",
+    "index.html": "/index.html",
+    "main.5f3462ac.css.map": "/static/css/main.5f3462ac.css.map",
+    "main.0e7a88f9.js.map": "/static/js/main.0e7a88f9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f3462ac.css",
+    "static/js/main.0e7a88f9.js"
+  ]
+}

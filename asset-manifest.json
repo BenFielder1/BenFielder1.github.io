@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.5f3462ac.css",
-    "main.js": "/static/js/main.0e7a88f9.js",
+    "main.js": "/static/js/main.221ad2d1.js",
+    "static/media/Pyramid_Numbers_42.apk": "/static/media/Pyramid_Numbers_42.3b9f6d7c4a8da9bdb944.apk",
     "static/media/game.png": "/static/media/game.c88ca76d4ac55a4ab4c8.png",
     "static/media/game2.png": "/static/media/game2.1b075a249c121b3a2149.png",
     "static/media/logo5.png": "/static/media/logo5.63a8eefd3fb3effba314.png",
@@ -12,10 +13,10 @@
     "static/media/snake.png": "/static/media/snake.283210587a2519d89ef0.png",
     "index.html": "/index.html",
     "main.5f3462ac.css.map": "/static/css/main.5f3462ac.css.map",
-    "main.0e7a88f9.js.map": "/static/js/main.0e7a88f9.js.map"
+    "main.221ad2d1.js.map": "/static/js/main.221ad2d1.js.map"
   },
   "entrypoints": [
     "static/css/main.5f3462ac.css",
-    "static/js/main.0e7a88f9.js"
+    "static/js/main.221ad2d1.js"
   ]
 }

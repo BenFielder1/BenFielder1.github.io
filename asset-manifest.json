@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.469a9426.css",
-    "main.js": "/static/js/main.46e06df8.js",
+    "main.css": "/static/css/main.a5ba12a9.css",
+    "main.js": "/static/js/main.0a916632.js",
     "static/media/birdidentifiervid.mp4": "/static/media/birdidentifiervid.3f2f11c605fdce960a73.mp4",
     "static/media/birdsongidentifier.jpg": "/static/media/birdsongidentifier.3f1158d9cd147db779f6.jpg",
     "static/media/game.png": "/static/media/game.c88ca76d4ac55a4ab4c8.png",
@@ -13,11 +13,11 @@
     "static/media/marling-school.jpg": "/static/media/marling-school.e66ea4413e1d0f59f775.jpg",
     "static/media/snake.png": "/static/media/snake.283210587a2519d89ef0.png",
     "index.html": "/index.html",
-    "main.469a9426.css.map": "/static/css/main.469a9426.css.map",
-    "main.46e06df8.js.map": "/static/js/main.46e06df8.js.map"
+    "main.a5ba12a9.css.map": "/static/css/main.a5ba12a9.css.map",
+    "main.0a916632.js.map": "/static/js/main.0a916632.js.map"
   },
   "entrypoints": [
-    "static/css/main.469a9426.css",
-    "static/js/main.46e06df8.js"
+    "static/css/main.a5ba12a9.css",
+    "static/js/main.0a916632.js"
   ]
 }

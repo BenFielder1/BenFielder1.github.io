@@ -1,0 +1,102 @@
+#projects{
+	margin:auto;
+    height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    justify-content: center;
+	text-align:center;
+	color: var(--main-fonts-color);
+}
+#projects h3{
+    padding-top: 70px;
+}
+#projects p{
+	font-family: var(--body-font-family);
+	font-size:1.2rem;
+	padding: 10px;
+}
+
+#projects .background{
+	background: url('../pictures/logo3.png') no-repeat;
+	background-size: cover;
+	background-position:center;
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	opacity:.20;
+}  
+
+#projects .alevelback{
+	background: url('../pictures/game.png') no-repeat;
+	background-size: cover;
+	background-position:center;
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	opacity:.20;
+}  
+
+#projects .birdsongidentifier{
+	background: url('../pictures/birdsongidentifier.jpg') no-repeat;
+	background-size: cover;
+	background-position:center;
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	opacity:.20;
+} 
+
+#video{
+	margin: auto;
+} 
+
+.projectcloseup {
+	text-align:center;
+    color: var(--main-fonts-color);
+	z-index: 1;
+	margin: auto;
+	padding: 20px;
+}
+
+#link-text{
+	color: var(--main-fonts-color);
+}
+
+
+button#playbutton{
+	width: 200px;
+	border-radius: 25px;
+	font-family: var(--title-font-family);
+	font-size: 2em;
+	background: transparent;
+	border: 2px solid;
+	border-color: var(--main-decor-color);
+	color: var(--main-fonts-color);
+	cursor: pointer;
+	margin: 5px;
+	position: relative;
+	overflow: hidden;
+}
+
+#span{
+	width: 0%;
+	height: 100%;
+	border-radius: 23px;
+	background-color: var(--main-decor-color);
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+	transition: 0.2s;
+}
+
+button:hover #span{
+	width: 100%;
+}

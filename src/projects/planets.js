@@ -1,7 +1,8 @@
 import React from "react";
 import * as THREE from "three";
-import {Link} from "react-router-dom";
-import logo3 from "../pictures/logo3.png"
+
+import { Header } from "../components/header";
+
 let OrbitControls = require("three-orbit-controls")(THREE)
 
 class Planets extends React.Component {
@@ -21,7 +22,9 @@ class Planets extends React.Component {
 
     camera.position.z = 10;
 
-    let controls = new OrbitControls(camera)
+    
+    //creates controls to move around sketch
+    new OrbitControls(camera)
 
     let star = createSphere("yellow")
     let planet1 = createSphere("green")
@@ -62,19 +65,8 @@ class Planets extends React.Component {
   }
   render() {
     return (
-        <div>
-    <header>
-		<a class="logo" href="#home">
-              <img src={logo3} alt="logo" />
-		</a>
-		<nav>	
-		 <ul class="nav-bar"><div class="bg"></div>
-			<li><Link class="nav-link" to="/">Home</Link></li>
-			<li><Link class="nav-link" to="/projects">Projects</Link></li>
-			<li><Link class="nav-link" to="/spaceworm">Space Worm</Link></li>
-		 </ul>
-		</nav>
-	    </header>
+      <div>
+      <Header active={""} />
       <div ref={ref => (this.mount = ref)} />
       </div>
     )

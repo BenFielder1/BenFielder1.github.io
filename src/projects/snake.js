@@ -1,7 +1,7 @@
 import * as React from 'react'
 import Sketch from "react-p5"
-import {Link} from "react-router-dom";
-import logo3 from "../pictures/logo3.png"
+
+import { Header } from "../components/header";
 
 const PF = require("pathfinding")
 
@@ -139,18 +139,7 @@ function Snake() {
 
   return (
     <div>
-    <header>
-		<a class="logo" href="#home">
-              <img src={logo3} alt="logo" />
-		</a>
-		<nav>	
-		 <ul class="nav-bar"><div class="bg"></div>
-			<li><Link class="nav-link" to="/">Home</Link></li>
-			<li><Link class="nav-link" to="/projects">Projects</Link></li>
-			<li><Link class="nav-link" to="/spaceworm">Space Worm</Link></li>
-		 </ul>
-		</nav>
-	    </header>
+    <Header active={""} />
     <div className="App">
       <Sketch setup={setup} draw={draw} />
     </div>
@@ -199,40 +188,40 @@ function reset(){
 
 function checkDirection(){
   if (snakeX[0] < appleX){
-    if(direction!="l"){
+    if(direction!=="l"){
       lastDirection = direction
       direction = "r"
     }
   }
   else if (snakeX[0] > appleX){
-    if(direction!="r"){
+    if(direction!=="r"){
       lastDirection = direction
       direction = "l"
     }
   }
   else if (snakeY[0] < appleY){
-    if(direction!="u"){
+    if(direction!=="u"){
       lastDirection = direction
       direction = "d"
     }
   }
   else if (snakeY[0] > appleY){
-    if(direction!="d"){
+    if(direction!=="d"){
       lastDirection = direction
       direction = "u"
     }
   }
-  if(lastDirection != direction){
+  if(lastDirection !== direction){
     lastActualDirection = lastDirection
   }
 }
   
 function checkForWallCollision(){
-  let directionChanged = false
+  // let directionChanged = false
   if (direction === "r"){
     if(snakeX[0] + 1 >= width1){
       lastDirection = direction
-      directionChanged = true
+      // directionChanged = true
       if(snakeY[0] + 1 >= height1){
         direction = "u"
       }
@@ -247,7 +236,7 @@ function checkForWallCollision(){
   if (direction === "l"){
     if(snakeX[0] - 1 < 0){
       lastDirection = direction
-      directionChanged = true
+      // directionChanged = true
       if(snakeY[0] + 1 >= height1){
         direction = "u"
       }
@@ -262,7 +251,7 @@ function checkForWallCollision(){
   if (direction === "u"){
     if(snakeY[0] - 1 < 0){
       lastDirection = direction
-      directionChanged = true
+      // directionChanged = true
       if(snakeX[0] + 1 >= width1){
         direction = "l"
       }
@@ -277,7 +266,7 @@ function checkForWallCollision(){
   if (direction === "d"){
     if(snakeY[0] + 1 >= height1){
       lastDirection = direction
-      directionChanged = true
+      // directionChanged = true
       if(snakeX[0] + 1 >= width1){
         direction = "l"
       }
@@ -289,7 +278,7 @@ function checkForWallCollision(){
       }
     }
   }
-  if(lastDirection != direction){
+  if(lastDirection !== direction){
     lastActualDirection = lastDirection
   }
 }
@@ -353,7 +342,7 @@ function checkForBodyCollision(){
       }
     }
   }
-  if(lastDirection != direction){
+  if(lastDirection !== direction){
     lastActualDirection = lastDirection
     checkForWallCollision()
   }

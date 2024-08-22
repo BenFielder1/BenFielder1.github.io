@@ -11,14 +11,34 @@ export default class Marling extends React.Component{
             <div id="education">
             <div class="background"></div> 
                 <section class="intro">
-                <h3>A Level and GCSE</h3>
-                    <p>4 A* grades at A level in Maths, Further Maths, Computer Science and Physics (2022).</p><br></br>
+                <h3>Marling School</h3>
+                    <p id="awardtitle">A Levels (2022):</p>
+                        <p>Mathematics - A*</p>
+                        <p>Further Mathematics - A*</p>
+                        <p>Computer Science - A*</p>
+                        <p>Physics - A*</p>
 
-                    <p>11 GCSEs of which six were grade 9, three grade 8 and two grade 7 including</p>
-                    <p>Maths grade 9 and English Language grade 8 (2020).</p><br></br>
+                    <br></br>
 
-                    <p>All from Marling School (2015 - 2022).</p>
-
+                    <p id="awardtitle">GCSEs (2020):</p>
+                        <p>11 subjects grade 9-7 as:</p>
+                        <p>Six at grade 9 - including Mathematics</p>
+                        <p>Three at grade 8 - including English Language</p>
+                        <p>Two at grade 7</p>
+                        {/* <div id="twocoloumns">
+                            <p>Mathematics - 9</p>
+                            <p>Chemistry - 9</p>
+                            <p>Design and Technology - 9</p>
+                            <p>English Language - 8</p>
+                            <p>History - 8</p>
+                            <p>Biology - 9</p>
+                            <p>Physics - 9</p>
+                            <p>Latin - 9</p>
+                            <p>Computer Science - 8</p>
+                            <p>English Literature - 7</p>
+                            <p>Religious Education - 7</p>
+                        </div> */}
+                        
                 </section>
             </div>
          </main>

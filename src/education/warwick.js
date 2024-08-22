@@ -11,9 +11,11 @@ export default class Warwick extends React.Component{
             <div id="education">
             <div class="background"></div> 
                 <section class="intro">
-                <h3>Computer Science MEng</h3>
-                    <p>Currently in 2nd year working towards a Computer Science MEng</p>
-                    <p>at the University of Warwick (September 2022 - July 2026).</p>
+                    <h3>University of Warwick</h3>
+                    <p id="awardtitle">Computer Science BSc:</p>
+                    <p>3rd Year Student</p>
+                    <p>September 2022 - Present</p>
+                    <p>Expected Graduation Date: June 2025</p>
 
                 </section>
             </div>

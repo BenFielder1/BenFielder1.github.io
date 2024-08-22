@@ -18,9 +18,9 @@ export default class Projects extends React.Component{
             <div id="projects">
                 <div class="background"></div> 
                 <section class="intro">
-                <h3>My Projects</h3>
-                    <p>Here are some of my projects</p>
-                    
+                <h3>Projects</h3>
+
+                {/* Could split into hardware, games and sketches */}
                     <div class="work">
                         <Card link={"/spaceworm"} image={logo5} content={"Space Worm"} />
                         <Card link={"/projects/puzzleplatformer"} image={game} content={"2D Puzzle Platformer"} />

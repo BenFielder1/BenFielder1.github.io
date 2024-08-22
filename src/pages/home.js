@@ -13,8 +13,8 @@ export default class Home extends React.Component{
 		        <section class="intro">
 		            <h3>Ben Fielder</h3>
 		                <p>Computer Science Student at the University of Warwick.</p>
-		                <p>Has experience with Java, C, Python, C#, JavaScript and Arduino.</p>
-                        <p>Owner and Head Engineer of the Game Developer Space Worm.</p>
+		                <p>JavaScript, C#, Python, Java, C and Arduino.</p>
+                        <p>Developer Brand - Space Worm.</p>
 						<br></br>
 
 						<a href="https://github.com/BenFielder1" target="_blank" rel="noreferrer"><i class='fab fa-github'></i></a>

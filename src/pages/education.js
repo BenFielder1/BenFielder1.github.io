@@ -16,7 +16,6 @@ export default class Education extends React.Component{
 		        <div class="background"></div>
 		        <section class="intro">
 		            <h3>Education</h3>
-		                <p>View my Qualifications and Education history here.</p>
 		                <p>Currently studying Computer Science at the University of Warwick.</p>
 
                         <div class="work">

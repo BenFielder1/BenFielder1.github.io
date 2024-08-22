@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d247407d.css",
+    "main.js": "/static/js/main.9520817c.js",
+    "polyfills-dom.js": "/static/js/polyfills-dom.54f4c554.chunk.js",
+    "polyfills-core-js.js": "/static/js/polyfills-core-js.fd0ceff7.chunk.js",
+    "static/js/340.cd2b0836.chunk.js": "/static/js/340.cd2b0836.chunk.js",
+    "static/media/birdidentifiervid.mp4": "/static/media/birdidentifiervid.3f2f11c605fdce960a73.mp4",
+    "static/media/birdsongidentifier.jpg": "/static/media/birdsongidentifier.3f1158d9cd147db779f6.jpg",
+    "static/media/game.png": "/static/media/game.c88ca76d4ac55a4ab4c8.png",
+    "static/media/game2.png": "/static/media/game2.1b075a249c121b3a2149.png",
+    "static/media/logo5.png": "/static/media/logo5.63a8eefd3fb3effba314.png",
+    "static/media/logo3.png": "/static/media/logo3.de4ef7a329eedc77b135.png",
+    "static/media/newfeaturepic.png": "/static/media/newfeaturepic.40000932be405ead214f.png",
+    "static/media/Kenney_Future_Narrow.ttf": "/static/media/Kenney_Future_Narrow.2aa39d70951453c74a55.ttf",
+    "static/media/marling-school.jpg": "/static/media/marling-school.e66ea4413e1d0f59f775.jpg",
+    "static/media/snake.png": "/static/media/snake.283210587a2519d89ef0.png",
+    "index.html": "/index.html",
+    "main.d247407d.css.map": "/static/css/main.d247407d.css.map",
+    "main.9520817c.js.map": "/static/js/main.9520817c.js.map",
+    "polyfills-dom.54f4c554.chunk.js.map": "/static/js/polyfills-dom.54f4c554.chunk.js.map",
+    "polyfills-core-js.fd0ceff7.chunk.js.map": "/static/js/polyfills-core-js.fd0ceff7.chunk.js.map",
+    "340.cd2b0836.chunk.js.map": "/static/js/340.cd2b0836.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d247407d.css",
+    "static/js/main.9520817c.js"
+  ]
+}

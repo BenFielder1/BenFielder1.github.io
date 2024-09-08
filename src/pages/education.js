@@ -1,10 +1,6 @@
 import React from "react"
 
-import warwick from "../pictures/warwick.jpg"
-import marling from "../pictures/marling-school.jpg"
-
 import { Header } from "../components/header";
-import { Card } from "../components/card";
 
 export default class Education extends React.Component{
     render(){
@@ -15,13 +11,11 @@ export default class Education extends React.Component{
             <div id="education">
 		        <div class="background"></div>
 		        <section class="intro">
-		            <h3>Education</h3>
-		                <p>Currently studying Computer Science at the University of Warwick.</p>
-
-                        <div class="work">
-							<Card link={"/education/warwick"} image={warwick} content={"University of Warwick"} />
-							<Card link={"/education/marling"} image={marling} content={"Marling School"} />
-                        </div>
+		            <h3>University of Warwick</h3>
+                    <p id="awardtitle">Computer Science BSc:</p>
+                    <p>3rd Year Student</p>
+                    <p>September 2022 - Present</p>
+                    <p>Expected Graduation Date: June 2025</p>
 			 
 		        </section> 
 	        </div>

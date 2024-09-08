@@ -23,10 +23,3 @@
 #awardtitle{
 	font-size: 32px;
 }
-
-#twocoloumns{
-	column-gap: 20px;
-	width: 550px;
-	column-count: 2;
-	margin: auto;
-}

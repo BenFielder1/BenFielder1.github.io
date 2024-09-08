@@ -1,8 +1,6 @@
 import React from "react"
 import ReactPlayer from 'react-player'
 
-import video from "../pictures/birdidentifiervid.mp4"
-
 import { Header } from "../components/header";
 
 export default class BirdSongIdentifier extends React.Component{
@@ -20,7 +18,7 @@ export default class BirdSongIdentifier extends React.Component{
                     <p>Play the video to see an example (turn up the volume to hear the bird songs at the end).</p>
                     <br></br><br></br>
 		            
-                    <ReactPlayer url={video} controls={true} id="video" />
+                    <ReactPlayer url="https://www.youtube.com/watch?v=ykYUyg93UfQ" controls={true} id="video" />
 
                 </section>
             </div>

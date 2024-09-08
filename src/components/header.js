@@ -9,6 +9,7 @@ export function Header(props){
     let projectsClass = "nav-link"
     let educationClass = "nav-link"
     let spacewormClass = "nav-link"
+    let workClass = "nav-link"
     if(active === "home"){
         homeClass += " active"
     }
@@ -21,6 +22,9 @@ export function Header(props){
     else if(active === "spaceworm"){
         spacewormClass += " active"
     }
+    else if(active === "work"){
+        workClass += " active"
+    }
 
     return (
         <header>
@@ -28,6 +32,7 @@ export function Header(props){
 			<nav>	
 		 		<ul class="nav-bar"><div class="bg"></div>
 					<li><Link class={homeClass} to="/">Home</Link></li>
+                    <li><Link class={workClass} to="/work">Work</Link></li>
 					<li><Link class={projectsClass} to="/projects">Projects</Link></li>
 					<li><Link class={educationClass} to="/education">Education</Link></li>
 					<li><Link class={spacewormClass} to="/spaceworm">Space Worm</Link></li>

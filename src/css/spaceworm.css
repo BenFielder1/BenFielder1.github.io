@@ -1,4 +1,4 @@
-.spaceworm{ 	
+#spaceworm{ 	
 	margin: auto;
 	height: 100vh;
 	color: var(--main-fonts-color);
@@ -8,19 +8,19 @@
 	justify-content: space-evenly;
 }
 
-.spaceworm .background{
-	background: url('../pictures/logo3.png') no-repeat;
+#spaceworm .background{
+	background: url('../pictures/newfeaturepic.png') no-repeat;
 	background-size: cover;
 	background-position:center;
     position: absolute;
-    top: 0px;
-    bottom: 0;
+    top: 200vh;
+    bottom: -200vh;
     left: 0;
     right: 0;
 	opacity:.20;
 } 
 
-.spaceworm #pyramidnum{
+#spaceworm #pyramidnum{
 	background: url('../pictures/newfeaturepic.png') no-repeat;
 	background-size: cover;
 	background-position:center;

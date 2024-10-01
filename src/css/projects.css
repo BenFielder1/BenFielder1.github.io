@@ -8,9 +8,11 @@
 	text-align:center;
 	color: var(--main-fonts-color);
 }
-#projects h3{
+
+/* #projects h3{
     padding-top: 70px;
-}
+} */
+
 #projects p{
 	font-family: var(--body-font-family);
 	font-size:1.2rem;
@@ -18,12 +20,12 @@
 }
 
 #projects .background{
-	background: url('../pictures/logo3.png') no-repeat;
+	background: url('../pictures/code1.jpg') no-repeat;
 	background-size: cover;
 	background-position:center;
     position: absolute;
-    top: 0px;
-    bottom: 0;
+    top: 100vh;
+    bottom: -100vh;
     left: 0;
     right: 0;
 	opacity:.20;
@@ -99,4 +101,8 @@ button#playbutton{
 
 button:hover #span{
 	width: 100%;
+}
+
+.mySlides{
+	display: none;
 }

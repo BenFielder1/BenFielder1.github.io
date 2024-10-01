@@ -6,7 +6,7 @@ export default class Education extends React.Component{
     render(){
         return(
             <div>
-			<Header active={"education"} />
+			{/* <Header active={"education"} /> */}
             <main>
             <div id="education">
 		        <div class="background"></div>

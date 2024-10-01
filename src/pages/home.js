@@ -6,7 +6,7 @@ export default class Home extends React.Component{
     render(){
         return(
             <div>
-			<Header active={"Home"} />
+			{/* <Header active={"Home"} /> */}
             <main>
             <div id="home">
 		        <div class="background"></div>

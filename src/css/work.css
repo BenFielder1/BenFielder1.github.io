@@ -9,12 +9,12 @@
 }
 
 #work .background{
-	background: url('../pictures/logo3.png') no-repeat;
+	background: url('../pictures/code3.jpg') no-repeat;
 	background-size: cover;
 	background-position:center;
     position: absolute;
-    top: 0px;
-    bottom: 0;
+    top: 300vh;
+    bottom: -300vh;
     left: 0;
     right: 0;
 	opacity:.20;

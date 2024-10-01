@@ -40,3 +40,8 @@
 	align-items: center;
 	padding: 20px;
 }
+
+.blank-button{
+	background: none;
+	border: 0px solid;
+}

@@ -3,11 +3,11 @@ import {Link} from "react-router-dom"
 
 export function Card(props){
     return (
-        <Link to={props.link}>
+        <button class="blank-button" onClick={props.func} >
             <div class="card">
 			    <img class="work-img" src={props.image} alt={props.content} />
 				<div class="work-content">{props.content}</div>
             </div>
-        </Link>
+        </button>
     )
 }

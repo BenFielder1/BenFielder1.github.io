@@ -24,10 +24,13 @@ import BirdSongIdentifier from "./projects/birdsongidentifier";
 import PlatformerGame from "./projects/puzzleplatformergame/platformergame";
 
 import PyramidNumbers from "./spaceworm/pyramidnumbers";
+import { Header } from "./components/header";
 
 export default function Main() {
     return (
-        <BrowserRouter>
+        <>
+
+        {/* <BrowserRouter>
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/projects" element={<Projects />} />
@@ -44,6 +47,17 @@ export default function Main() {
 
             <Route path="/spaceworm/pyramidnumbers" element={<PyramidNumbers />} />
         </Routes>
-      </BrowserRouter>
+        </BrowserRouter> */}
+
+        <Header />
+
+        <Home />
+        <Projects />
+        <SpaceWorm />
+        <Work />
+        <Education />
+
+
+        </>
     );
 }

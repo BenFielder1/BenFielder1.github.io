@@ -6,7 +6,7 @@ export default class Work extends React.Component{
     render(){
         return(
             <div>
-			<Header active={"work"} />
+			{/* <Header active={"work"} /> */}
             <main>
             <div id="work">
 		        <div class="background"></div>

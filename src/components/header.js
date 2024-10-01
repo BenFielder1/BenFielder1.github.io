@@ -4,7 +4,8 @@ import {Link} from "react-router-dom"
 import logo3 from "../pictures/logo3.png"
 
 export function Header(props){
-    let active = props.active.toLowerCase()
+    let active = ""
+    // props.active.toLowerCase()
     let homeClass = "nav-link"
     let projectsClass = "nav-link"
     let educationClass = "nav-link"
@@ -28,14 +29,14 @@ export function Header(props){
 
     return (
         <header>
-			<Link class="logo" to="/"><img src={logo3} alt="logo" /></Link>
+			<a class="logo" href="#home"><img src={logo3} alt="logo" /></a>
 			<nav>	
 		 		<ul class="nav-bar"><div class="bg"></div>
-					<li><Link class={homeClass} to="/">Home</Link></li>
-                    <li><Link class={workClass} to="/work">Work</Link></li>
-					<li><Link class={projectsClass} to="/projects">Projects</Link></li>
-					<li><Link class={educationClass} to="/education">Education</Link></li>
-					<li><Link class={spacewormClass} to="/spaceworm">Space Worm</Link></li>
+					<li><a class={homeClass} href="#home">Home</a></li>
+                    <li><a class={workClass} href="#work">Work</a></li>
+					<li><a class={projectsClass} href="#projects">Projects</a></li>
+					<li><a class={educationClass} href="#education">Education</a></li>
+					<li><a class={spacewormClass} href="#spaceworm">Space Worm</a></li>
 		 		</ul>
 			</nav>
 	    </header>

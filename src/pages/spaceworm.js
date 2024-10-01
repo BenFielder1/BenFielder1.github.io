@@ -9,9 +9,9 @@ export default class SpaceWorm extends React.Component{
     render(){
         return(
             <div>
-			<Header active={"spaceworm"} />
+			{/* <Header active={"spaceworm"} /> */}
             <main>
-            <div class="spaceworm">
+            <div id="spaceworm">
 		        <div class="background"></div>
 		        <section class="intro">
 		            <h3>Space Worm</h3>
@@ -20,7 +20,7 @@ export default class SpaceWorm extends React.Component{
 						<p>View some games by Space Worm below.</p>
 
                     	<div class="work">
-							<Card link={"/spaceworm/pyramidnumbers"} image={pyramid} content={"Pyramid Numbers"} />
+							{/* <Card link={"/spaceworm/pyramidnumbers"} image={pyramid} content={"Pyramid Numbers"} /> */}
                     	</div>
 		        </section> 
 	        </div>

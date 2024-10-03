@@ -19,7 +19,7 @@ export default class Home extends React.Component{
 
 						<a href="https://github.com/BenFielder1" target="_blank" rel="noreferrer"><i class='fab fa-github'></i></a>
 						<a href="https://www.linkedin.com/in/ben-fielder-38a9ba276/" target="_blank" rel="noreferrer"><i class='fab fa-linkedin'></i></a>
-			 
+			
 		        </section> 
 	        </div>
          	</main>
